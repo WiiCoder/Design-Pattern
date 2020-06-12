@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="752d87ed-0ac4-4341-9002-fd736cc3dddf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/wiiu/singleton/type1/SingletonTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/singleton/doublecheck/SingletonTest6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/singleton/enumtype/SingletonTest8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/singleton/hungrytype2/SingletonTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/singleton/lazytype1/SingletonTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/singleton/lazytype2/SingletonTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/singleton/lazytype3/SingletonTest5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/singleton/staticinner/SingletonTest7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wiiu/singleton/type1/SingletonTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wiiu/singleton/hungrytype1/SingletonTest1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,16 +42,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/wiiu/principle/ocp/improve" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/wiiu/singleton/doublecheck" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/wiiu/singleton/doublecheck" />
+      <recent name="$PROJECT_DIR$/src/com/wiiu/singleton/lazytype2" />
+      <recent name="$PROJECT_DIR$/src/com/wiiu/singleton" />
+      <recent name="$PROJECT_DIR$/src/com/wiiu/singleton/type2" />
       <recent name="$PROJECT_DIR$/src/com/wiiu/principle/ocp/improve" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/com/wiiu/principle/dependenceInversion" />
-      <recent name="$PROJECT_DIR$/src/com/wiiu/principle/segregation" />
-      <recent name="$PROJECT_DIR$/src/com/wiiu/principle/singleresponsibility" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -59,13 +66,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingletonTest1">
-    <configuration name="Liskov" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiiu.principle.liskov.Liskov" />
+  <component name="RunManager" selected="Application.SingletonTest8">
+    <configuration name="SingletonTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiiu.singleton.lazytype2.SingletonTest4" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiiu.principle.liskov.*" />
+          <option name="PATTERN" value="com.wiiu.singleton.lazytype2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OcoTheWay1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiiu.principle.ocp.OcoTheWay1" />
+    <configuration name="SingletonTest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiiu.singleton.lazytype3.SingletonTest5" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiiu.principle.ocp.*" />
+          <option name="PATTERN" value="com.wiiu.singleton.lazytype3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ocp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiiu.principle.ocp.improve.Ocp" />
+    <configuration name="SingletonTest6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiiu.singleton.doublecheck.SingletonTest6" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiiu.principle.ocp.improve.*" />
+          <option name="PATTERN" value="com.wiiu.singleton.doublecheck.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiiu.principle.compositeReuse.Principle" />
+    <configuration name="SingletonTest7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiiu.singleton.staticinner.SingletonTest7" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiiu.principle.compositeReuse.*" />
+          <option name="PATTERN" value="com.wiiu.singleton.staticinner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiiu.singleton.type1.SingletonTest1" />
+    <configuration name="SingletonTest8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiiu.singleton.enumtype.SingletonTest8" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiiu.singleton.type1.*" />
+          <option name="PATTERN" value="com.wiiu.singleton.enumtype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,19 +133,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Liskov" />
-      <item itemvalue="Application.OcoTheWay1" />
-      <item itemvalue="Application.Ocp" />
-      <item itemvalue="Application.Principle" />
-      <item itemvalue="Application.SingletonTest1" />
+      <item itemvalue="Application.SingletonTest4" />
+      <item itemvalue="Application.SingletonTest5" />
+      <item itemvalue="Application.SingletonTest7" />
+      <item itemvalue="Application.SingletonTest6" />
+      <item itemvalue="Application.SingletonTest8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingletonTest1" />
-        <item itemvalue="Application.Principle" />
-        <item itemvalue="Application.Ocp" />
-        <item itemvalue="Application.OcoTheWay1" />
-        <item itemvalue="Application.Liskov" />
+        <item itemvalue="Application.SingletonTest8" />
+        <item itemvalue="Application.SingletonTest5" />
+        <item itemvalue="Application.SingletonTest4" />
+        <item itemvalue="Application.SingletonTest6" />
+        <item itemvalue="Application.SingletonTest7" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +161,7 @@
       <updated>1591690783691</updated>
       <workItem from="1591690787204" duration="14467000" />
       <workItem from="1591931291384" duration="1878000" />
-      <workItem from="1591939988336" duration="6503000" />
+      <workItem from="1591939988336" duration="11071000" />
     </task>
     <servers />
   </component>
