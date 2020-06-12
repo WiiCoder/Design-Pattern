@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="752d87ed-0ac4-4341-9002-fd736cc3dddf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/wiiu/principle/openClosed/Principle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,10 +33,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/wiiu/principle/ocp/improve" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/wiiu/principle/ocp/improve" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/com/wiiu/principle/dependenceInversion" />
       <recent name="$PROJECT_DIR$/src/com/wiiu/principle/segregation" />
@@ -56,20 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Liskov">
-    <configuration name="DependenceInversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiiu.principle.dependenceInversion.DependenceInversion" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wiiu.principle.dependenceInversion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ocp">
     <configuration name="DependenceInversionImprove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wiiu.principle.dependenceInversion.DependenceInversionImprove" />
       <module name="DesignPattern" />
@@ -109,12 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SegreationImprove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiiu.principle.segregation.SegreationImprove" />
+    <configuration name="OcoTheWay1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiiu.principle.ocp.OcoTheWay1" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiiu.principle.segregation.*" />
+          <option name="PATTERN" value="com.wiiu.principle.ocp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ocp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiiu.principle.ocp.improve.Ocp" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wiiu.principle.ocp.improve.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,19 +123,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SegreationImprove" />
-      <item itemvalue="Application.DependenceInversion" />
       <item itemvalue="Application.DependenceInversionImprove" />
       <item itemvalue="Application.DependencyPass" />
       <item itemvalue="Application.Liskov" />
+      <item itemvalue="Application.OcoTheWay1" />
+      <item itemvalue="Application.Ocp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ocp" />
+        <item itemvalue="Application.OcoTheWay1" />
         <item itemvalue="Application.Liskov" />
         <item itemvalue="Application.DependencyPass" />
         <item itemvalue="Application.DependenceInversionImprove" />
-        <item itemvalue="Application.DependenceInversion" />
-        <item itemvalue="Application.SegreationImprove" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +150,8 @@
       <option name="presentableId" value="Default" />
       <updated>1591690783691</updated>
       <workItem from="1591690787204" duration="14467000" />
-      <workItem from="1591931291384" duration="1078000" />
+      <workItem from="1591931291384" duration="1878000" />
+      <workItem from="1591939988336" duration="2113000" />
     </task>
     <servers />
   </component>
