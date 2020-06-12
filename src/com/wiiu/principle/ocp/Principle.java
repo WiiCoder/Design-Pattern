@@ -1,4 +1,4 @@
-package com.wiiu.principle.openClosed;
+package com.wiiu.principle.ocp;
 
 /**
  * @ClassName Principle
