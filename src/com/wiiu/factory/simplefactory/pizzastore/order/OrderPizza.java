@@ -18,24 +18,32 @@ import java.io.InputStreamReader;
 
 public class OrderPizza {
 
-    public OrderPizza() {
-        Pizza pizza = null;
-        String orderType;
-        do {
-            orderType = getType();
-            if (orderType.equals("greek")){
-                pizza = new GreekPizza();
-            } else if (orderType.equals("cheese")) {
-                pizza = new CheesePizza();
-            } else {
-                break;
-            }
-            // 输出pizza 制作过程
-            pizza.prepare();
-            pizza.bake();
-            pizza.cut();
-            pizza.box();
-        } while (true);
+//    public OrderPizza() {
+//        Pizza pizza = null;
+//        String orderType;
+//        do {
+//            orderType = getType();
+//            if (orderType.equals("greek")){
+//                pizza = new GreekPizza();
+//            } else if (orderType.equals("cheese")) {
+//                pizza = new CheesePizza();
+//            } else {
+//                break;
+//            }
+//            // 输出pizza 制作过程
+//            pizza.prepare();
+//            pizza.bake();
+//            pizza.cut();
+//            pizza.box();
+//        } while (true);
+//    }
+
+    SimpleFactory simpleFactory;
+
+    public void setSimpleFactory(SimpleFactory simpleFactory) {
+        String type = "";
+
+        this.simpleFactory = simpleFactory;
     }
 
     // 获取客户订购的披萨种类
