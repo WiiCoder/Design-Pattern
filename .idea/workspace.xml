@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="752d87ed-0ac4-4341-9002-fd736cc3dddf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/factorymethod/pizzastore/order/BJOrderPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/factorymethod/pizzastore/order/LondanOrderPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/factorymethod/pizzastore/order/OrderPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/factorymethod/pizzastore/pizza/BJCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/factorymethod/pizzastore/pizza/BJPeeperPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/factorymethod/pizzastore/pizza/LondonCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/factorymethod/pizzastore/pizza/LondonPeeperPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/factorymethod/pizzastore/pizza/Pizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
     </list>
@@ -166,7 +158,7 @@
       <workItem from="1591690787204" duration="14467000" />
       <workItem from="1591931291384" duration="1878000" />
       <workItem from="1591939988336" duration="17243000" />
-      <workItem from="1592361087618" duration="2426000" />
+      <workItem from="1592361087618" duration="2923000" />
     </task>
     <servers />
   </component>
