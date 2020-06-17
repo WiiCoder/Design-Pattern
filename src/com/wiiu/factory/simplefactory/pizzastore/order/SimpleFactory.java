@@ -1,6 +1,7 @@
 package com.wiiu.factory.simplefactory.pizzastore.order;
 
 import com.wiiu.factory.simplefactory.pizzastore.pizza.CheesePizza;
+import com.wiiu.factory.simplefactory.pizzastore.pizza.ChinaPizza;
 import com.wiiu.factory.simplefactory.pizzastore.pizza.GreekPizza;
 import com.wiiu.factory.simplefactory.pizzastore.pizza.Pizza;
 
@@ -23,6 +24,8 @@ public class SimpleFactory {
             pizza = new GreekPizza();
         } else if (type.equals("cheese")) {
             pizza = new CheesePizza();
+        } else if (type.equals("china")) {
+            pizza = new ChinaPizza();
         }
 
         return pizza;

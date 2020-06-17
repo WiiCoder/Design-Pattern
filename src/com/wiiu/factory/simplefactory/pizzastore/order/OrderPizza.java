@@ -39,11 +39,29 @@ public class OrderPizza {
 //    }
 
     SimpleFactory simpleFactory;
+    Pizza pizza = null;
+
+    public OrderPizza(SimpleFactory simpleFactory) {
+        setSimpleFactory(simpleFactory);
+    }
 
     public void setSimpleFactory(SimpleFactory simpleFactory) {
         String type = "";
-
         this.simpleFactory = simpleFactory;
+        do {
+            type = getType();
+            pizza = this.simpleFactory.createPizza(type);
+            if (pizza != null){
+                System.out.println("订购成功");
+                pizza.prepare();
+                pizza.bake();
+                pizza.cut();
+                pizza.box();
+            } else {
+                System.out.println("订购失败,没有对应的pizza种类");
+                break;
+            }
+        } while (true);
     }
 
     // 获取客户订购的披萨种类
