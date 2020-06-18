@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="752d87ed-0ac4-4341-9002-fd736cc3dddf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/absfactory/pizzastore/order/AbsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/absfactory/pizzastore/order/BJFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/absfactory/pizzastore/order/LondonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/absfactory/pizzastore/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/absfactory/pizzastore/order/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/absfactory/pizzastore/pizza/BJCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/absfactory/pizzastore/pizza/BJPeeperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/absfactory/pizzastore/pizza/LondonCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/absfactory/pizzastore/pizza/LondonPeeperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/factory/absfactory/pizzastore/pizza/Pizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,20 +45,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/wiiu/singleton/doublecheck" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/wiiu/factory/absfactory/pizzastore" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wiiu.factory.absfactory.pizzastore.order" />
       <recent name="com.wiiu.factory.factorymethod.pizzastore.order" />
       <recent name="com.wiiu.factory.factorymethod.pizzastore.pizza" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/wiiu/factory/absfactory/pizzastore" />
       <recent name="$PROJECT_DIR$/src/com/wiiu/singleton/doublecheck" />
       <recent name="$PROJECT_DIR$/src/com/wiiu/singleton/lazytype2" />
       <recent name="$PROJECT_DIR$/src/com/wiiu/singleton" />
       <recent name="$PROJECT_DIR$/src/com/wiiu/singleton/type2" />
-      <recent name="$PROJECT_DIR$/src/com/wiiu/principle/ocp/improve" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -62,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PizzaStore (1)">
+  <component name="RunManager" selected="Application.PizzaStore (2)">
     <configuration name="PizzaStore (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wiiu.factory.factorymethod.pizzastore.order.PizzaStore" />
       <module name="DesignPattern" />
@@ -76,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiiu.factory.simplefactory.pizzastore.order.PizzaStore" />
+    <configuration name="PizzaStore (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiiu.factory.absfactory.pizzastore.order.PizzaStore" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiiu.factory.simplefactory.pizzastore.order.*" />
+          <option name="PATTERN" value="com.wiiu.factory.absfactory.pizzastore.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiiu.singleton.lazytype2.SingletonTest4" />
+    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiiu.factory.simplefactory.pizzastore.order.PizzaStore" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiiu.singleton.lazytype2.*" />
+          <option name="PATTERN" value="com.wiiu.factory.simplefactory.pizzastore.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,19 +141,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SingletonTest4" />
       <item itemvalue="Application.SingletonTest5" />
       <item itemvalue="Application.SingletonTest8" />
       <item itemvalue="Application.PizzaStore" />
       <item itemvalue="Application.PizzaStore (1)" />
+      <item itemvalue="Application.PizzaStore (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PizzaStore (2)" />
         <item itemvalue="Application.PizzaStore (1)" />
         <item itemvalue="Application.PizzaStore" />
         <item itemvalue="Application.SingletonTest8" />
         <item itemvalue="Application.SingletonTest5" />
-        <item itemvalue="Application.SingletonTest4" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +170,7 @@
       <workItem from="1591690787204" duration="14467000" />
       <workItem from="1591931291384" duration="1878000" />
       <workItem from="1591939988336" duration="17243000" />
-      <workItem from="1592361087618" duration="2923000" />
+      <workItem from="1592361087618" duration="5740000" />
     </task>
     <servers />
   </component>
