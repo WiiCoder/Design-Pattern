@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="752d87ed-0ac4-4341-9002-fd736cc3dddf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/wiiu/prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wiiu/prototype/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/prototype/deepclone/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/prototype/deepclone/DeepCloneableTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/prototype/deepclone/DeepProtoType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -66,7 +67,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiiu.prototype.deepclone.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wiiu.prototype.deepclone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wiiu.prototype.Client" />
       <module name="DesignPattern" />
@@ -119,33 +133,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiiu.singleton.enumtype.SingletonTest8" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wiiu.singleton.enumtype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.SingletonTest8" />
       <item itemvalue="Application.PizzaStore" />
       <item itemvalue="Application.PizzaStore (1)" />
       <item itemvalue="Application.PizzaStore (2)" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.PizzaStore (2)" />
         <item itemvalue="Application.PizzaStore (1)" />
         <item itemvalue="Application.PizzaStore" />
-        <item itemvalue="Application.SingletonTest8" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +163,7 @@
       <workItem from="1591690787204" duration="14467000" />
       <workItem from="1591931291384" duration="1878000" />
       <workItem from="1591939988336" duration="17243000" />
-      <workItem from="1592361087618" duration="8108000" />
+      <workItem from="1592361087618" duration="9744000" />
     </task>
     <servers />
   </component>
