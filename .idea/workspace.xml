@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="752d87ed-0ac4-4341-9002-fd736cc3dddf" name="Default Changelist" comment="" />
+    <list default="true" id="752d87ed-0ac4-4341-9002-fd736cc3dddf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/adapter/Seasson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/adapter/UseSeasson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wiiu/adapter/testMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.UseSeasson">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wiiu.prototype.deepclone.Client" />
       <module name="DesignPattern" />
@@ -104,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiiu.factory.factorymethod.pizzastore.order.PizzaStore" />
+    <configuration name="UseSeasson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiiu.adapter.UseSeasson" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiiu.factory.factorymethod.pizzastore.order.*" />
+          <option name="PATTERN" value="com.wiiu.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiiu.factory.absfactory.pizzastore.order.PizzaStore" />
+    <configuration name="testMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiiu.adapter.testMap" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiiu.factory.absfactory.pizzastore.order.*" />
+          <option name="PATTERN" value="com.wiiu.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +137,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PizzaStore (1)" />
-      <item itemvalue="Application.PizzaStore (2)" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.testMap" />
+      <item itemvalue="Application.UseSeasson" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseSeasson" />
+        <item itemvalue="Application.testMap" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.PizzaStore (2)" />
-        <item itemvalue="Application.PizzaStore (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +166,8 @@
       <workItem from="1591690787204" duration="14467000" />
       <workItem from="1591931291384" duration="1878000" />
       <workItem from="1591939988336" duration="17243000" />
-      <workItem from="1592361087618" duration="15522000" />
+      <workItem from="1592361087618" duration="15774000" />
+      <workItem from="1592795905024" duration="8676000" />
     </task>
     <servers />
   </component>
