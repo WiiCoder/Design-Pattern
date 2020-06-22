@@ -111,6 +111,13 @@
         通过枚举实现单例模式，不仅能避免多线程同步问题，而且能防止反序列化重新创建新的对象。
         这种方式时Effective Java坐着Josh Bloch提倡的方式
         
+        通过反编译，我们就能发现，其实枚举在经过javac编译之后，会被转换成形如 public final class T extends Enum 的定义。
+        而且，枚举中的哥哥枚举项同时通过 static 来定义。 static 类型的属性会在类被加载之后被初始化。当一个Java类第一次被真正
+        使用到的时候静态资源被初始化、Java类的加载和初始化过程都是线程安全的（因为虚拟机在加载枚举类的时候，会使用ClassLoder的
+        loadClass方法，而这个方法使用同步代码块保证了线程安全）。所以创建一个enum类型是线程安全的。
+        
+        可以参考[详细解读](http://hollischuang.gitee.io/tobetopjavaer/#/basics/java-basic/enum-singleton)
+        
         推荐使用
 
 ### 2、工厂模式
