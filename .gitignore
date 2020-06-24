@@ -1,8 +1,8 @@
 # Default ignored files
-/workspace.xml
+**/workspace.xml
 
-/.idea/
+**/.idea/
 
 DesignPattrn.iml
 
-/out/
+**/out/
