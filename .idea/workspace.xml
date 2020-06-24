@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="752d87ed-0ac4-4341-9002-fd736cc3dddf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/wiiu/adapter/objadapter" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -56,11 +55,11 @@
       <recent name="com.wiiu.factory.factorymethod.pizzastore.pizza" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/wiiu/adapter/objadapter" />
       <recent name="$PROJECT_DIR$/src/com/wiiu/factory/absfactory/pizzastore" />
       <recent name="$PROJECT_DIR$/src/com/wiiu/singleton/doublecheck" />
       <recent name="$PROJECT_DIR$/src/com/wiiu/singleton/lazytype2" />
       <recent name="$PROJECT_DIR$/src/com/wiiu/singleton" />
-      <recent name="$PROJECT_DIR$/src/com/wiiu/singleton/type2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -75,13 +74,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.client">
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiiu.builder.Client" />
+  <component name="RunManager" selected="Application.client (1)">
+    <configuration name="UseSeasson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiiu.adapter.UseSeasson" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiiu.builder.*" />
+          <option name="PATTERN" value="com.wiiu.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseSeasson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiiu.adapter.UseSeasson" />
+    <configuration name="client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiiu.adapter.objadapter.client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wiiu.adapter.*" />
+          <option name="PATTERN" value="com.wiiu.adapter.objadapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +141,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.testMap" />
       <item itemvalue="Application.UseSeasson" />
       <item itemvalue="Application.testStream" />
       <item itemvalue="Application.client" />
+      <item itemvalue="Application.client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.client (1)" />
         <item itemvalue="Application.client" />
         <item itemvalue="Application.testStream" />
         <item itemvalue="Application.UseSeasson" />
         <item itemvalue="Application.testMap" />
-        <item itemvalue="Application.Client (2)" />
       </list>
     </recent_temporary>
   </component>
