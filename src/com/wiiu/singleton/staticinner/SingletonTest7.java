@@ -1,5 +1,10 @@
 package com.wiiu.singleton.staticinner;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.ZoneOffset;
+
 /**
  * @ClassName SingletonTest7
  * @Description TODO
@@ -10,9 +15,13 @@ package com.wiiu.singleton.staticinner;
 
 public class SingletonTest7 {
     public static void main(String[] args) {
-        Singleton instance = Singleton.getInstance();
-        Singleton instance1 = Singleton.getInstance();
-        System.out.println(instance.hashCode()+":"+instance1.hashCode());
+//        Singleton instance = Singleton.getInstance();
+//        Singleton instance1 = Singleton.getInstance();
+//        System.out.println(instance.hashCode()+":"+instance1.hashCode());
+        long start = LocalDateTime.of(LocalDate.now(), LocalTime.MIN).toInstant(ZoneOffset.of("+8")).toEpochMilli();
+        long startHistory =
+                LocalDateTime.of(LocalDate.now().plusYears(-10L), LocalTime.MIN).toInstant(ZoneOffset.of("+8")).toEpochMilli();
+        System.out.println(startHistory);
     }
 }
 
